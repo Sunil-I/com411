@@ -31,3 +31,8 @@ print()
 from basics.output.show_beep import run
 print (bcolors.WARNING + 'running basics/output/show_beep.py' + bcolors.ENDC)
 run()
+
+print()
+from basics.output.ascii_art import run
+print (bcolors.WARNING + 'running basics/output/ascii_art.py' + bcolors.ENDC)
+run()
