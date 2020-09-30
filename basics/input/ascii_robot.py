@@ -3,6 +3,6 @@ def run(eye):
   # eye = input('Please enter a character for the eye ')
   # eye = '0'
   print('##########');
-  print('#  '+eye+'  '+eye+'  #');
+  print(f'#  {eye}  {eye}  #')
   print('#  ----  #');
   print('##########');

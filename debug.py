@@ -8,8 +8,9 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
+import sys
 # __file__ will show the script name
-print(bcolors.WARNING + 'running ' + __file__  + bcolors.ENDC);
+print(bcolors.OKBLUE + bcolors.WARNING + 'running ' + __file__  + bcolors.ENDC);
 
 print()
 print (bcolors.WARNING + 'running basics/output/simple_message.py' + bcolors.ENDC)
@@ -38,27 +39,27 @@ run()
 
 print()
 from basics.input.user_input import run
-print (bcolors.WARNING + 'running basics/input/user_input.py' + bcolors.ENDC)
-name = input('What is your name? ')
-run(name)
+print (bcolors.WARNING + 'running basica/input/user_input.py' + bcolors.ENDC)
+print('What is your name?')
+run(sys.argv[1])
 
 print()
 from basics.input.ascii_robot import run
 print (bcolors.WARNING + 'running basics/input/ascii_robot.py' + bcolors.ENDC)
-eye = input('Input one character e.g 0 ')
-run(eye)
+print('What character should I use for my eye? e.g 0')
+run(sys.argv[2])
 
 print()
 from basics.input.user_age import run
 print (bcolors.WARNING + 'running basics/input/user_age.py' + bcolors.ENDC)
-age = input('Please enter an age ')
-run(age)
+print('How old are you?')
+run(sys.argv[3])
 
 print()
 from basics.input.data_types import run
 print (bcolors.WARNING + 'running basics/input/data_types.py' + bcolors.ENDC)
-name_beep = input('What is your name human? ')
-age_beep = input('How old are you (in years)? ')
-height_beep = int(input('How tall are you (in meters)? '))
-weight_beep = int(input('How much do you weigh (in kilograms)? '))
-run(name_beep, age_beep, height_beep, weight_beep)
+print('What is your name human? ')
+print('How old are you (in years)? ')
+print('How tall are you (in meters)? ')
+print('How much do you weigh (in kilograms)? ')
+run(sys.argv[4], sys.argv[5], int(sys.argv[6]), int(sys.argv[7]))

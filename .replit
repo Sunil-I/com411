@@ -1,2 +1,3 @@
 language = "python3"
+# python debug.py <name> <eye> <age>
 run = "python main.py"
