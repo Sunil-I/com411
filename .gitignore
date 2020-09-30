@@ -136,3 +136,6 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Ignoring the file is a bad idea as you may wish to make changes to be used next time or if someone else imports the repo elsewhere. otherwise this would normally be ignored with a skeleton file being provided
+#.replit 
