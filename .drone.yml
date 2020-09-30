@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: python:3.5.1-alpine
+    image: python:3.6-alpine
     commands:
 # python debug.py <name> <eye> <age> <beep_name> <beep_age> <beep_height <beep_weight>
       - python debug.py drone 0 18 drone 900 40 0
