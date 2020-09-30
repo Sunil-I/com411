@@ -36,3 +36,13 @@ print()
 from basics.output.ascii_art import run
 print (bcolors.WARNING + 'running basics/output/ascii_art.py' + bcolors.ENDC)
 run()
+
+print()
+from basics.input.user_input import run
+print (bcolors.WARNING + 'running inpu/input/user_input.py' + bcolors.ENDC)
+run()
+
+print()
+from basics.input.ascii_robot import run
+print (bcolors.WARNING + 'running inpu/input/ascii_robot.py' + bcolors.ENDC)
+run()
