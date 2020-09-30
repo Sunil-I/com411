@@ -8,7 +8,7 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
-
+import sys
 # __file__ will show the script name
 print('Running ' + __file__ );
 
@@ -40,9 +40,9 @@ run()
 print()
 from basics.input.user_input import run
 print (bcolors.WARNING + 'running inpu/input/user_input.py' + bcolors.ENDC)
-run()
+run(sys.argv[1])
 
 print()
 from basics.input.ascii_robot import run
 print (bcolors.WARNING + 'running inpu/input/ascii_robot.py' + bcolors.ENDC)
-run()
+run(sys.argv[2])

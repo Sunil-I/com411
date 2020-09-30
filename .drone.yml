@@ -2,4 +2,4 @@ pipeline:
   build:
     image: python:3.5.1-alpine
     commands:
-      - python main.py
+      - python main.py testing 0
