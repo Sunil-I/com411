@@ -1,2 +1,2 @@
 def run():
-  print('\t\"I am Beep!\"');
+  print('\t\"I am Beep!\"')

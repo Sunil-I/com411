@@ -1,3 +1,3 @@
 # Standard start message
 def start():
-  print('System Failure Imminent');
+  print('System Failure Imminent')

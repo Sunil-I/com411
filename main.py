@@ -9,7 +9,7 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 # __file__ will show the script name
-print(bcolors.WARNING + 'running ' + __file__  + bcolors.ENDC);
+print(bcolors.WARNING + 'running ' + __file__  + bcolors.ENDC)
 
 print()
 print (bcolors.WARNING + 'running basics/output/simple_message.py' + bcolors.ENDC)
@@ -62,3 +62,11 @@ age_beep = input('How old are you (in years)? ')
 height_beep = int(input('How tall are you (in meters)? '))
 weight_beep = int(input('How much do you weigh (in kilograms)? '))
 run(name_beep, age_beep, height_beep, weight_beep)
+
+print()
+from basics.input.string_operators import run
+print (bcolors.WARNING + 'running basics/input/string_operators.py' + bcolors.ENDC)
+lives = int(input('Please enter the number of lives. '))
+energy_levels = int(input('Please enter the energy level. '))
+shield_levels = int(input('Please enter the shield level. '))
+run(lives, energy_levels, shield_levels)

@@ -10,7 +10,7 @@ class bcolors:
     UNDERLINE = '\033[4m'
 import sys
 # __file__ will show the script name
-print(bcolors.OKBLUE + bcolors.WARNING + 'running ' + __file__  + bcolors.ENDC);
+print(bcolors.OKBLUE + bcolors.WARNING + 'running ' + __file__  + bcolors.ENDC)
 
 print()
 print (bcolors.WARNING + 'running basics/output/simple_message.py' + bcolors.ENDC)
@@ -63,3 +63,11 @@ print('How old are you (in years)? ')
 print('How tall are you (in meters)? ')
 print('How much do you weigh (in kilograms)? ')
 run(sys.argv[4], sys.argv[5], int(sys.argv[6]), int(sys.argv[7]))
+
+print()
+from basics.input.string_operators import run
+print (bcolors.WARNING + 'running basics/input/string_operators.py' + bcolors.ENDC)
+print('Please enter the number of lives. ' + sys.argv[8])
+print('Please enter the energy level. ' + sys.argv[9] )
+print('Please enter the shield level. ' + sys.argv[10])
+run(int(sys.argv[8]), int(sys.argv[9]), int(sys.argv[10]))
