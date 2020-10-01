@@ -4,7 +4,6 @@ name: default
 steps: 
   testing: 
     commands: 
-# python debug.py <name> <eye> <age> <beep_name> <beep_age> <beep_height <beep_weight> <lives> <energy level> <shield level> <name>, <age>, <height>, <weight>, <health>, <shield>
       - "python debug.py drone 0 18 drone 18 300 10 3 10 30 drone 18 300 20 100 300"
     image: python
 type: docker
