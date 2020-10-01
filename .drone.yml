@@ -1,9 +1,6 @@
---- 
-kind: pipeline
-name: default
-steps: 
-  testing: 
-    commands: 
-      - "python debug.py drone 0 18 drone 18 300 10 3 10 30 drone 18 300 20 100 300"
+pipeline:
+  build:
     image: python
-type: docker
+    commands:
+# python debug.py <name> <eye> <age> <beep_name> <beep_age> <beep_height <beep_weight>
+      - python debug.py drone 0 18 drone 18 300 10 3 10 30 drone 18 300 20 100 300
