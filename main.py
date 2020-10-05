@@ -81,3 +81,10 @@ weight = input('How much do you weigh human? ')
 health = int(input('Please enter the number of lives. '))
 shield = int(input('Please enter the shield level. '))
 run(name, age, height, weight, health, shield)
+
+print()
+from basics.simple_decision.IF import run
+print (bcolors.WARNING + 'running basics/simple_decision/IF.py' + bcolors.ENDC)
+print('What type of book is this?')
+book = input()
+run(book)

@@ -82,3 +82,10 @@ print(f'How much do you weigh human? {sys.argv[14]} ')
 print(f'Please enter the number of lives. {sys.argv[16]} ')
 print(f'Please enter the shield level. {sys.argv[16]} ')
 run(sys.argv[11], sys.argv[12], sys.argv[13], sys.argv[14], sys.argv[15], sys.argv[16])
+
+print()
+from basics.simple_decision.IF import run
+print (bcolors.WARNING + 'running basics/simple_decision/IF.py' + bcolors.ENDC)
+print('What type of book is this?')
+print(sys.argv[17])
+run(sys.argv[17])
