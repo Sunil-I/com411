@@ -89,3 +89,19 @@ print (bcolors.WARNING + 'running basics/simple_decision/IF.py' + bcolors.ENDC)
 print('What type of book is this?')
 print(sys.argv[17])
 run(sys.argv[17])
+
+print()
+from basics.simple_decision.if_else import run
+print (bcolors.WARNING + 'running basics/simple_decision/if_else.py' + bcolors.ENDC)
+print('Showing with Calculate')
+print('Please enter the activity to be performed.')
+print(sys.argv[18])
+run(sys.argv[18])
+
+print()
+from basics.simple_decision.if_else import run
+print (bcolors.WARNING + 'running basics/simple_decision/if_else.py' + bcolors.ENDC)
+print('Showing without Calculate')
+print('Please enter the activity to be performed.')
+print('test')
+run('test')

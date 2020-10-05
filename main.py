@@ -88,3 +88,10 @@ print (bcolors.WARNING + 'running basics/simple_decision/IF.py' + bcolors.ENDC)
 print('What type of book is this?')
 book = input()
 run(book)
+
+print()
+from basics.simple_decision.if_else import run
+print (bcolors.WARNING + 'running basics/simple_decision/if_else.py' + bcolors.ENDC)
+print('Please enter the activity to be performed.')
+activity = input()
+run(activity)
