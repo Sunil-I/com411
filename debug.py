@@ -120,3 +120,14 @@ print('Please enter a whole number.')
 print(int(sys.argv[19]))
 num = int(sys.argv[19])
 run(num)
+
+print()
+from basics.simple_decision.comparison_operators import run
+print (bcolors.WARNING + 'running basics/simple_decision/comparison_operators.py' + bcolors.ENDC)
+print()
+import random
+first = random.randint(0, 300)
+second = random.randint(0, 100)
+print(f'Please enter the first number. {first}')
+print(f'Please enter the second number. {second}')
+run(first, second)

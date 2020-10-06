@@ -85,22 +85,19 @@ run(name, age, height, weight, health, shield)
 print()
 from basics.simple_decision.IF import run
 print (bcolors.WARNING + 'running basics/simple_decision/IF.py' + bcolors.ENDC)
-print('What type of book is this?')
-book = input()
+book = input('What type of book is this? ')
 run(book)
 
 print()
 from basics.simple_decision.if_else import run
 print (bcolors.WARNING + 'running basics/simple_decision/if_else.py' + bcolors.ENDC)
-print('Please enter the activity to be performed.')
-activity = input()
+activity = input('Please enter the activity to be performed. ')
 run(activity)
 
 print()
 from basics.simple_decision.if_elif_else import run
 print (bcolors.WARNING + 'running basics/simple_decision/if_elif_else.py' + bcolors.ENDC)
-print('Towards which direction should I paint (up, down, left or right)?')
-direction = input()
+direction = input('Towards which direction should I paint (up, down, left or right)? ')
 run(direction)
 
 print()
@@ -109,3 +106,10 @@ print (bcolors.WARNING + 'running basics/simple_decision/modulo_operator.py' + b
 print('Please enter a whole number.')
 num = int(input())
 run(num)
+
+print()
+from basics.simple_decision.comparison_operators import run
+print(bcolors.WARNING + 'running basics/simple_decision/comparison_operators.py' + bcolors.ENDC)
+first = int(input('Please enter the first number. '))
+second = int(input('Please enter the first number. '))
+run(first, second)
