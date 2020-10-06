@@ -105,3 +105,10 @@ print('Showing without Calculate')
 print('Please enter the activity to be performed.')
 print('test')
 run('test')
+
+print()
+from basics.simple_decision.if_elif_else import run
+print (bcolors.WARNING + 'running basics/simple_decision/if_elif_else.py' + bcolors.ENDC)
+print('Towards which direction should I paint (up, down, left or right)?')
+print(sys.argv[18])
+run(sys.argv[18])

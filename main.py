@@ -95,3 +95,10 @@ print (bcolors.WARNING + 'running basics/simple_decision/if_else.py' + bcolors.E
 print('Please enter the activity to be performed.')
 activity = input()
 run(activity)
+
+print()
+from basics.simple_decision.if_elif_else import run
+print (bcolors.WARNING + 'running basics/simple_decision/if_elif_else.py' + bcolors.ENDC)
+print('Towards which direction should I paint (up, down, left or right)?')
+direction = input()
+run(direction)
