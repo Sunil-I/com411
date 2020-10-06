@@ -112,3 +112,11 @@ print (bcolors.WARNING + 'running basics/simple_decision/if_elif_else.py' + bcol
 print('Towards which direction should I paint (up, down, left or right)?')
 print(sys.argv[18])
 run(sys.argv[18])
+
+print()
+from basics.simple_decision.modulo_operator import run
+print (bcolors.WARNING + 'running basics/simple_decision/modulo_operator.py' + bcolors.ENDC)
+print('Please enter a whole number.')
+print(int(sys.argv[19]))
+num = int(sys.argv[19])
+run(num)
