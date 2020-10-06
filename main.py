@@ -113,3 +113,11 @@ print(bcolors.WARNING + 'running basics/simple_decision/comparison_operators.py'
 first = int(input('Please enter the first number. '))
 second = int(input('Please enter the first number. '))
 run(first, second)
+
+print()
+from basics.simple_decision.counter import run
+print(bcolors.WARNING + 'running basics/simple_decision/counter.py' + bcolors.ENDC)
+first = int(input('Please enter the first whole number.'))
+second = int(print('Please enter the second whole number.'))
+third = int(print('Please enter the third whole number.'))
+run(first, second, third)

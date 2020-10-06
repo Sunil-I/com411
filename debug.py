@@ -131,3 +131,16 @@ second = random.randint(0, 100)
 print(f'Please enter the first number. {first}')
 print(f'Please enter the second number. {second}')
 run(first, second)
+
+print()
+from basics.simple_decision.counter import run
+print (bcolors.WARNING + 'running basics/simple_decision/counter.py' + bcolors.ENDC)
+print()
+import random
+first = random.randint(0, 300)
+second = random.randint(0, 100)
+third = random.randint(0, 100)
+print(f'Please enter the first number. {first}')
+print(f'Please enter the second number. {second}')
+print(f'Please enter the third number. {third}')
+run(first, second, third)
