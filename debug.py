@@ -14,13 +14,13 @@ print(bcolors.OKBLUE + bcolors.WARNING + 'running ' + __file__  + bcolors.ENDC)
 
 print()
 print (bcolors.WARNING + 'running basics/output/simple_message.py' + bcolors.ENDC)
-from basics.output.simple_message import start
-start()
+from basics.output.simple_message import run
+run()
 
 print()
-from basics.output.multiline_message import start
+from basics.output.multiline_message import run
 print (bcolors.WARNING + 'running basics/output/multiline_message.py' + bcolors.ENDC)
-start()
+run()
 
 print()
 from basics.output.escape_characters import run
@@ -128,8 +128,8 @@ print()
 import random
 first = random.randint(0, 300)
 second = random.randint(0, 100)
-print(f'Please enter the first number. {first}')
-print(f'Please enter the second number. {second}')
+print(f'Please enter the First number. {first}')
+print(f'Please enter the Second number. {second}')
 run(first, second)
 
 print()
@@ -144,3 +144,12 @@ print(f'Please enter the first number. {first}')
 print(f'Please enter the second number. {second}')
 print(f'Please enter the third number. {third}')
 run(first, second, third)
+
+print()
+from basics.simple_decision.nested_decision.nested import run
+print(bcolors.WARNING + 'running basics/simple_decision/nested_decision/nested.py' + bcolors.ENDC)
+print(f'What type of cover does the book have? {sys.argv[20]}')
+print(f'Is the book perfect-bound? {sys.argv[21]}')
+run(sys.argv[20], sys.argv[21])
+
+print(bcolors.OKGREEN + 'Succesfully executed all scripts' + bcolors.ENDC)

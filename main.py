@@ -8,18 +8,20 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
+
 # __file__ will show the script name
 print(bcolors.WARNING + 'running ' + __file__  + bcolors.ENDC)
 
+# Import and execute file for each task
 print()
 print (bcolors.WARNING + 'running basics/output/simple_message.py' + bcolors.ENDC)
-from basics.output.simple_message import start
-start()
+from basics.output.simple_message import run
+run()
 
 print()
-from basics.output.multiline_message import start
+from basics.output.multiline_message import run
 print (bcolors.WARNING + 'running basics/output/multiline_message.py' + bcolors.ENDC)
-start()
+run()
 
 print()
 from basics.output.escape_characters import run
@@ -103,21 +105,31 @@ run(direction)
 print()
 from basics.simple_decision.modulo_operator import run
 print (bcolors.WARNING + 'running basics/simple_decision/modulo_operator.py' + bcolors.ENDC)
-print('Please enter a whole number.')
-num = int(input())
+num = int(input('Please enter a whole number. '))
 run(num)
 
 print()
 from basics.simple_decision.comparison_operators import run
 print(bcolors.WARNING + 'running basics/simple_decision/comparison_operators.py' + bcolors.ENDC)
-first = int(input('Please enter the first number. '))
-second = int(input('Please enter the first number. '))
+first = int(input('Please enter the First number. '))
+second = int(input('Please enter the Second number. '))
 run(first, second)
 
 print()
 from basics.simple_decision.counter import run
 print(bcolors.WARNING + 'running basics/simple_decision/counter.py' + bcolors.ENDC)
-first = int(input('Please enter the first whole number.'))
-second = int(print('Please enter the second whole number.'))
-third = int(print('Please enter the third whole number.'))
-run(first, second, third)
+first = input('Please enter the first whole number. ')
+second = input('Please enter the second whole number. ')
+third = input('Please enter the third whole number. ')
+run(int(first), int(second), int(third))
+
+print()
+from basics.simple_decision.nested_decision.nested import run
+print(bcolors.WARNING + 'running basics/simple_decision/nested_decision/nested.py' + bcolors.ENDC)
+cover = input('What type of cover does the book have? ')
+bound = input('Is the book perfect-bound? ')
+run(cover, bound)
+
+
+print()
+print(bcolors.OKGREEN + 'Succesfully executed all scripts' + bcolors.ENDC)
