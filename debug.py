@@ -171,5 +171,11 @@ print(f'What did I hear? {sys.argv[25]}')
 print(f'What did I see? {sys.argv[26]}')
 run(sys.argv[25], sys.argv[26])
 
+print()
+from basics.repetitions.while_loop.simple import run
+print(bcolors.WARNING + 'running basics/repetitions/while_loop/simple.py' + bcolors.ENDC)
+cables = int(sys.argv[27])
+print(f'How many cables should I remove? {cables}')
+run(cables)
 
 print(bcolors.OKGREEN + 'Succesfully executed all scripts' + bcolors.ENDC)

@@ -1,3 +1,4 @@
 print()
-from basics.decisions.and_operator import run
-run('grrr', 'two red eyeds')
+from basics.repetitions.while_loop.simple import run
+cables = int(input('How many cables should I remove? '))
+run(cables)
