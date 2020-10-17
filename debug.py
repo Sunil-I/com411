@@ -164,4 +164,12 @@ print(bcolors.WARNING + 'running basics/decisions/or_operator.py' + bcolors.ENDC
 print(f'What type of adventure should I have?  {sys.argv[24]}')
 run(sys.argv[24])
 
+print()
+from basics.decisions.and_operator import run
+print(bcolors.WARNING + 'running basics/decisions/and_operator.py' + bcolors.ENDC)
+print(f'What did I hear? {sys.argv[25]}')
+print(f'What did I see? {sys.argv[26]}')
+run(sys.argv[25], sys.argv[26])
+
+
 print(bcolors.OKGREEN + 'Succesfully executed all scripts' + bcolors.ENDC)

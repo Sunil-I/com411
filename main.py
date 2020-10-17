@@ -143,4 +143,11 @@ adventure = input('What type of adventure should I have? ')
 run(adventure)
 
 print()
+from basics.decisions.and_operator import run
+print(bcolors.WARNING + 'running basics/decisions/and_operator.py' + bcolors.ENDC)
+hear = input('What did I hear? ')
+see = input('What did I see? ')
+run(hear, see)
+
+print()
 print(bcolors.OKGREEN + 'Succesfully executed all scripts' + bcolors.ENDC)
