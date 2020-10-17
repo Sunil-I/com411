@@ -3,4 +3,4 @@ pipeline:
     image: python
     commands:
 # python debug.py <name> <eye> <age> <beep_name> <beep_age> <beep_height <beep_weight> <lives> <energy> <shield> <name> <age> <height> <weight> <lives> <shield>
-      - python debug.py drone_1 0 18 drone 18 300 20 30 10 15 drone 32 300 10 30 30 adventure down 4
+      - python debug.py drone_1 0 18 drone 18 300 20 30 10 15 drone 32 300 10 30 30 adventure down 4 soft yes lab "On the table"

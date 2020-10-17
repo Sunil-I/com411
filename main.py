@@ -130,6 +130,13 @@ cover = input('What type of cover does the book have? ')
 bound = input('Is the book perfect-bound? ')
 run(cover, bound)
 
+print()
+from basics.simple_decision.nested_decision.nestception import run
+print(bcolors.WARNING + 'running basics/simple_decision/nested_decision/nestception.py' + bcolors.ENDC)
+where = input('Where should I look? ')
+run(where)
+
+
 
 print()
 print(bcolors.OKGREEN + 'Succesfully executed all scripts' + bcolors.ENDC)

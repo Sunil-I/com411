@@ -152,4 +152,10 @@ print(f'What type of cover does the book have? {sys.argv[20]}')
 print(f'Is the book perfect-bound? {sys.argv[21]}')
 run(sys.argv[20], sys.argv[21])
 
+print()
+from basics.simple_decision.nested_decision.nestception_debug import run
+print(bcolors.WARNING + 'running basics/simple_decision/nested_decision/nestception_debug.py' + bcolors.ENDC)
+print(f'Where should I look? {sys.argv[22]}')
+run(sys.argv[22], sys.argv[23])
+
 print(bcolors.OKGREEN + 'Succesfully executed all scripts' + bcolors.ENDC)
