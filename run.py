@@ -1,4 +1,4 @@
 print()
-from basics.simple_decision.nested_decision.nestception import run
-where = input('Where should I look? ')
-run(where)
+from basics.decisions.or_operator import run
+adventure = input('What type of adventure should I have? ')
+run(adventure)

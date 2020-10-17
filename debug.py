@@ -158,4 +158,10 @@ print(bcolors.WARNING + 'running basics/simple_decision/nested_decision/nestcept
 print(f'Where should I look? {sys.argv[22]}')
 run(sys.argv[22], sys.argv[23])
 
+print()
+from basics.decisions.or_operator import run
+print(bcolors.WARNING + 'running basics/decisions/or_operator.py' + bcolors.ENDC)
+print(f'What type of adventure should I have?  {sys.argv[24]}')
+run(sys.argv[24])
+
 print(bcolors.OKGREEN + 'Succesfully executed all scripts' + bcolors.ENDC)

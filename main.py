@@ -136,7 +136,11 @@ print(bcolors.WARNING + 'running basics/simple_decision/nested_decision/nestcept
 where = input('Where should I look? ')
 run(where)
 
-
+print()
+from basics.decisions.or_operator import run
+print(bcolors.WARNING + 'running basics/decisions/or_operator.py' + bcolors.ENDC)
+adventure = input('What type of adventure should I have? ')
+run(adventure)
 
 print()
 print(bcolors.OKGREEN + 'Succesfully executed all scripts' + bcolors.ENDC)
