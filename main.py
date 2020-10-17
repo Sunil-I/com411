@@ -155,6 +155,11 @@ print(bcolors.WARNING + 'running basics/repetitions/while_loop/simple.py' + bcol
 cables = int(input('How many cables should I remove? '))
 run(cables)
 
+print()
+from basics.repetitions.while_loop.ascii import run
+print(bcolors.WARNING + 'running basics/repetitions/while_loop/ascii.py' + bcolors.ENDC)
+bars = int(input('How many bars should be charged? '))
+run(bars)
 
 print()
 print(bcolors.OKGREEN + 'Succesfully executed all scripts' + bcolors.ENDC)

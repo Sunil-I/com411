@@ -185,4 +185,12 @@ cables = int(sys.argv[28])
 print(f'How many cables should I remove? {cables} ')
 run(cables)
 
+print()
+from basics.repetitions.while_loop.ascii import run
+print(bcolors.WARNING + 'running basics/repetitions/while_loop/ascii.py' + bcolors.ENDC)
+bars = int(sys.argv[29])
+print(f'How many bars should be charged? {bars} ')
+run(bars)
+
+
 print(bcolors.OKGREEN + 'Succesfully executed all sripts' + bcolors.ENDC)

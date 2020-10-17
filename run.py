@@ -1,4 +1,4 @@
 print()
-from basics.repetitions.while_loop.count import run
-cables = int(input('How many live cables should I avoid? '))
-run(cables)
+from basics.repetitions.while_loop.ascii import run
+bars = int(input('How many bars should be charged? '))
+run(bars)
