@@ -152,7 +152,7 @@ run(hear, see)
 print()
 from basics.repetitions.while_loop.simple import run
 print(bcolors.WARNING + 'running basics/repetitions/while_loop/simple.py' + bcolors.ENDC)
-cables = input('How many cables should I remove? ')
+cables = int(input('How many cables should I remove? '))
 run(cables)
 
 

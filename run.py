@@ -1,4 +1,4 @@
 print()
-from basics.repetitions.while_loop.simple import run
-cables = int(input('How many cables should I remove? '))
+from basics.repetitions.while_loop.count import run
+cables = int(input('How many live cables should I avoid? '))
 run(cables)
