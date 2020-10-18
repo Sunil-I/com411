@@ -162,4 +162,10 @@ bars = int(input('How many bars should be charged? '))
 run(bars)
 
 print()
+from basics.repetitions.while_loop.ascii import run
+print(bcolors.WARNING + 'running basics/repetitions/while_loop/len.py' + bcolors.ENDC)
+chars = input('Please enter a phrase? ')
+run(chars)
+
+print()
 print(bcolors.OKGREEN + 'Succesfully executed all scripts' + bcolors.ENDC)

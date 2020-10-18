@@ -192,5 +192,11 @@ bars = int(sys.argv[29])
 print(f'How many bars should be charged? {bars} ')
 run(bars)
 
+print()
+from basics.repetitions.while_loop.len import run
+print(bcolors.WARNING + 'running basics/repetitions/while_loop/len.py' + bcolors.ENDC)
+chars = sys.argv[30]
+print(f'Please enter a phrase? ')
+run(chars)
 
 print(bcolors.OKGREEN + 'Succesfully executed all sripts' + bcolors.ENDC)

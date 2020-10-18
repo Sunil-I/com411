@@ -1,4 +1,4 @@
 print()
-from basics.repetitions.while_loop.ascii import run
-bars = int(input('How many bars should be charged? '))
-run(bars)
+from basics.repetitions.while_loop.len import run
+chars = input('Please enter a phrase? ')
+run(chars)
