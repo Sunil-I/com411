@@ -1,4 +1,3 @@
 print()
-from basics.repetitions.while_loop.len import run
-chars = input('Please enter a phrase? ')
-run(chars)
+from basics.repetitions.while_loop.sum_100 import run
+run()

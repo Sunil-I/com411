@@ -199,4 +199,9 @@ chars = sys.argv[30]
 print(f'Please enter a phrase? ')
 run(chars)
 
+print()
+from basics.repetitions.while_loop.sum_100 import run
+print(bcolors.WARNING + 'running basics/repetitions/while_loop/sum_100.py' + bcolors.ENDC)
+run()
+
 print(bcolors.OKGREEN + 'Succesfully executed all sripts' + bcolors.ENDC)
