@@ -173,4 +173,10 @@ print(bcolors.WARNING + 'running basics/repetitions/while_loop/sum_100.py' + bco
 run()
 
 print()
+from basics.repetitions.while_loop.sum_user_numbers import run
+print(bcolors.WARNING + 'running basics/repetitions/while_loop/sum_user_numbers.py' + bcolors.ENDC)
+numbers = input('How many numbers should I sum up?')
+run(numbers)
+
+print()
 print(bcolors.OKGREEN + 'Succesfully executed all scripts' + bcolors.ENDC)
