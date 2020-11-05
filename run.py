@@ -1,3 +1,2 @@
-print()
-from basics.repetitions.while_loop.sum_100 import run
-run()
+from data.lists.iterate_list import menu
+menu()
