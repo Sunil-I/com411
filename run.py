@@ -1,2 +1,2 @@
-from data.lists.iterate_list import menu
-menu()
+from data.lists.populate_list import run
+run()
