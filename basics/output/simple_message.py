@@ -1,3 +1,3 @@
-# Standard start message
 def run():
-  print('System Failure Imminent')
+  # Display message to the standard output
+  print("System Failure Imminent!")

@@ -8,7 +8,9 @@ ENDC = '\033[0m'
 BOLD = '\033[1m'
 UNDERLINE = '\033[4m'
 
-print(f'{OKGREEN}Welcome to com411 code runner.{ENDC}\n')
-print(f'{OKGREEN}Running Part A code.{ENDC}')
-from a import execute
-execute()
+def execute():
+  from basics.output.simple_message import run
+  run()
+  print()
+  from basics.output.multiline_message import run
+  run()
