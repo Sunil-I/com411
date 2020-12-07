@@ -1,0 +1,21 @@
+---
+kind: pipeline
+name: Part_A
+
+steps:
+- name: Part_A
+  image: python:3.7
+  commands:
+  - python a.py
+---
+kind: pipeline
+name: Part_B
+
+steps:
+- name: Part_B
+  image: python:3.7
+  commands:
+  - python b.py
+  environment:
+    debug: true
+...
