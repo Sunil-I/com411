@@ -20,3 +20,5 @@ def execute():
   print()
   from basics.output.ascii_art import run
   run()
+
+execute()

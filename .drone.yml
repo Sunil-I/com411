@@ -6,7 +6,16 @@ steps:
 - name: Run
   image: python:3.7
   commands:
-  - python main.py
+  - python a.py
+---
+kind: pipeline
+name: Part B
+
+steps:
+- name: Run
+  image: python:3.7
+  commands:
+  - python b.py
   environment:
     debug: true
 ...
