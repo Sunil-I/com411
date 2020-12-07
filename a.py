@@ -14,3 +14,6 @@ def execute():
   print()
   from basics.output.multiline_message import run
   run()
+  print()
+  from basics.output.escape_characters import run
+  run()
