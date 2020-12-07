@@ -11,7 +11,11 @@ UNDERLINE = '\033[4m'
 def execute():
   from basics.input.user_input import run
   run()
+  print()
   from basics.input.ascii_robot import run
+  run()
+  print()
+  from basics.input.data_types import run
   run()
 
 execute()
