@@ -17,3 +17,6 @@ def execute():
   print()
   from basics.output.escape_characters import run
   run()
+  print()
+  from basics.output.ascii_art import run
+  run()
