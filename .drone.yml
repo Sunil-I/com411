@@ -1,18 +1,18 @@
 ---
 kind: pipeline
-name: Part_A
+name: Part A
 
 steps:
-- name: Part_A
+- name: Run
   image: python:3.7
   commands:
   - python a.py
 ---
 kind: pipeline
-name: Part_B
+name: Part B
 
 steps:
-- name: Part_B
+- name: Run
   image: python:3.7
   commands:
   - python b.py
