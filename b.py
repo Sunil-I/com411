@@ -17,5 +17,7 @@ def execute():
   print()
   from basics.input.data_types import run
   run()
+  from basics.input.string_operators import run
+  run()
 
 execute()
