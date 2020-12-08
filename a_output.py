@@ -7,6 +7,8 @@ FAIL = '\033[91m'
 ENDC = '\033[0m'
 BOLD = '\033[1m'
 UNDERLINE = '\033[4m'
+import os
+debug = os.getenv('debug')
 
 def execute():
   from basics.output.simple_message import run
@@ -20,5 +22,6 @@ def execute():
   print()
   from basics.output.ascii_art import run
   run()
-
-execute()
+  
+if (debug == 'true'):
+  execute()

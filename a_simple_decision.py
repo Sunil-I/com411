@@ -9,20 +9,15 @@ BOLD = '\033[1m'
 UNDERLINE = '\033[4m'
 import os
 debug = os.getenv('debug')
+
 def execute():
-  from basics.input.user_input import run
+  from basics.decisions.simple_decision.if_py import run
   run()
   print()
-  from basics.input.ascii_robot import run
+  from basics.decisions.simple_decision.if_else import run
   run()
   print()
-  from basics.input.data_types import run
-  run()
-  print()
-  from basics.input.string_operators import run
-  run()
-  print()
-  from basics.input.review import run
+  from basics.decisions.simple_decision.if_elif_else import run
   run()
 
 if (debug == 'true'):

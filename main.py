@@ -17,3 +17,8 @@ print()
 print(f'{OKGREEN}Running Part A Input code.{ENDC}')
 from a_output import execute
 execute()
+
+print()
+print(f'{OKGREEN}Running Part A Simple decisions code.{ENDC}')
+from a_simple_decision import execute
+execute()
