@@ -26,5 +26,8 @@ def execute():
   print()
   from basics.decisions.simple_decision.if_py import run
   run()
+  print()
+  from basics.decisions.simple_decision.if_else import run
+  run()
 
 execute()
