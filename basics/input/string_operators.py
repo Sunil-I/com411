@@ -3,17 +3,20 @@ def run():
   debug = os.getenv('debug')
   print('Please enter the number of lives.')
   if debug == 'true': 
-    lives = 3
+    lives = int(3)
+    print(lives)
   else: 
     lives = int(input())
   print(' Please enter the energy level?')
   if debug == 'true': 
     energy = int(30)
+    print(energy)
   else: 
     energy = int(input())
   print(' Please enter the shield level.')
   if debug == 'true': 
     shield = int(3)
+    print(shield)
   else: 
     shield = float(input())
   

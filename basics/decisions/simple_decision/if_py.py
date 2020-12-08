@@ -4,6 +4,7 @@ def run():
   print('What type of book is this?')
   if (debug == 'true'):
     book = 'adventure'
+    print(book)
   else:
     book = input()
   if (book == 'adventure' or book == 'Adventure'):

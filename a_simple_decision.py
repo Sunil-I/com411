@@ -22,6 +22,9 @@ def execute():
   print()
   from basics.decisions.simple_decision.modulo_operator import run
   run()
+  print()
+  from basics.decisions.simple_decision.counter import run
+  run()
 
 if (debug == 'true'):
   execute()

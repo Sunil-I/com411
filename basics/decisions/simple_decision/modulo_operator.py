@@ -4,6 +4,7 @@ def run():
   print('Please enter a whole number.')
   if (debug == 'true'):
     number = int(10)
+    print(number)
   else:
     number = int(input())
 

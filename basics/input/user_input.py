@@ -5,6 +5,7 @@ def run():
   print("What is your name human?")
   if (debug == 'true'):
     name = "drone"
+    print(name)
   else:
     name = input()
   print("It is nice to meet you human", name)

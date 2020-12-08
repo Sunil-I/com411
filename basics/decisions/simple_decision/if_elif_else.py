@@ -5,6 +5,7 @@ def run():
   
   if (debug == 'true'):
     direction = 'up'
+    print(direction)
   else: 
     direction = input()
 
