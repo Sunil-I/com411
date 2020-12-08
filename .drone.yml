@@ -1,21 +1,19 @@
+
 ---
 kind: pipeline
-name: Part A
+name: Part A: Basics
 
 steps:
-- name: Run
+- name: Run Output
   image: python:3.7
   commands:
-  - python a.py
----
-kind: pipeline
-name: Part B
-
-steps:
-- name: Run
+  - python a_output.py
+  environment:
+    debug: true
+- name: Run Input
   image: python:3.7
   commands:
-  - python b.py
+  - python a_input.py
   environment:
     debug: true
 ...

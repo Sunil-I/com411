@@ -9,11 +9,11 @@ BOLD = '\033[1m'
 UNDERLINE = '\033[4m'
 
 print(f'{OKGREEN}Welcome to com411 code runner.{ENDC}\n')
-print(f'{OKGREEN}Running Part A code.{ENDC}')
-from a import execute
+print(f'{OKGREEN}Running Part A Output code.{ENDC}')
+from a_input import execute
 execute()
 
 print()
-print(f'{OKGREEN}Running Part B code.{ENDC}')
-from b import execute
+print(f'{OKGREEN}Running Part A Input code.{ENDC}')
+from a_output import execute
 execute()

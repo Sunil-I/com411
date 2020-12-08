@@ -23,5 +23,8 @@ def execute():
   print()
   from basics.input.review import run
   run()
+  print()
+  from basics.decisions.simple_decision.if_py import run
+  run()
 
 execute()
