@@ -1,18 +1,18 @@
----
+--- 
 kind: pipeline
-name: Part A: Basics
-
-steps:
-- name: Run Output
-  image: python:3.7
-  commands:
-  - python a_output.py
-  environment:
-    debug: true
-- name: Run Input
-  image: python:3.7
-  commands:
-  - python a_input.py
-  environment:
-    debug: true
-...
+name: "Part A: Basics"
+steps: 
+  - 
+    commands: 
+      - "python a_output.py"
+    environment: 
+      debug: true
+    image: "python:3.7"
+    name: "Run Output"
+  - 
+    commands: 
+      - "python a_input.py"
+    environment: 
+      debug: true
+    image: "python:3.7"
+    name: "Run Input"
