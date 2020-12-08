@@ -19,6 +19,9 @@ def execute():
   print()
   from basics.decisions.simple_decision.if_elif_else import run
   run()
+  print()
+  from basics.decisions.simple_decision.modulo_operator import run
+  run()
 
 if (debug == 'true'):
   execute()
