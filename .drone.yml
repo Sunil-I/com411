@@ -1,25 +1,28 @@
 --- 
 kind: pipeline
-name: "Part A: Basics"
-steps: 
-  - 
-    commands: 
-      - "python a_output.py"
-    environment: 
+name: 'Part A: Basics'
+steps:
+  - commands:
+      - python a_output.py
+    environment:
       debug: true
-    image: "python:3.7"
-    name: "Run Output"
-  - 
-    commands: 
-      - "python a_input.py"
-    environment: 
+    image: 'python:3.7'
+    name: Run Output
+  - commands:
+      - python a_input.py
+    environment:
       debug: true
-    image: "python:3.7"
-    name: "Run Input"
-  - 
-    commands: 
-      - "python a_simple_decision.py"
-    environment: 
+    image: 'python:3.7'
+    name: Run Input
+  - commands:
+      - python a_simple_decision.py
+    environment:
       debug: true
-    image: "python:3.7"
-    name: "Run Simple Decisions"
+    image: 'python:3.7'
+    name: Run Simple Decisions
+  - commands:
+      - python a_nested_decision.py
+    environment:
+      debug: true
+    image: 'python:3.7'
+    name: Run Nested Decisions

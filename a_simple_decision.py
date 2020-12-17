@@ -25,6 +25,8 @@ def execute():
   print()
   from basics.decisions.simple_decision.counter import run
   run()
-
+  print()
+  from basics.decisions.simple_decision.comparison_operators import run
+  run()
 if (debug == 'true'):
   execute()
