@@ -22,3 +22,8 @@ print()
 print(f'{OKGREEN}Running Part A Simple decisions code.{ENDC}')
 from a_simple_decision import execute
 execute()
+
+print()
+print(f'{OKGREEN}Running Part A Nested decisions code.{ENDC}')
+from a_nested_decision import execute
+execute()
